@@ -1,6 +1,7 @@
 package test;
 
 import constant.functions.Length;
+import constant.functions.Temperature;
 
 /**
  * Created by mertkanyener on 12.07.2017.
@@ -8,9 +9,10 @@ import constant.functions.Length;
 public class Test {
 
     public static void main(String[] args){
-        Length c = new Length();
-        double result = c.cmToIn(14);
-        System.out.println(result);
+        Temperature t = new Temperature();
+        System.out.println(t.fahrenheitToCelsius(98.2));
+        Math.floorDiv(5, 9);
+
 
 
     }
