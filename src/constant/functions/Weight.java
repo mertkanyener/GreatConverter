@@ -19,6 +19,14 @@ public class Weight {
     public double ozToLbs(double oz){
         return oz * 0.0625;
     }
+    
+    public double ozToTon(double oz) {
+    	return oz * 0.00003125;
+    }
+    
+    public double ozToTonne(double oz) {
+    	return oz * 0.00002835;
+    }
 
     //Pound to sth
 
@@ -55,6 +63,14 @@ public class Weight {
     public double tonToTonne(double ton){
         return ton * 0.907185;
     }
+    
+    public double tonToOz(double ton) {
+    	return ton * 32000;
+    }
+    
+    public double tonToGr(double ton) {
+    	return ton * 907185;
+    }
 
     //Grams to sth
 
@@ -64,6 +80,10 @@ public class Weight {
 
     public double grToLbs(double gr){
         return gr * 0.00220462;
+    }
+    
+    public double grToTon(double gr) {
+    	return gr * 0.0000011023;
     }
 
     //Kg to sth
@@ -84,6 +104,10 @@ public class Weight {
 
     public double tonneToTon(double tonne){
         return tonne * 1.10231;
+    }
+    
+    public double tonneToLbs(double tonne) {
+    	return tonne * 2204.62;
     }
 
     public double tonneToOz(double tonne){

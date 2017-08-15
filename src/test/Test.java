@@ -10,10 +10,7 @@ import currency.ConvertCurrency;
 public class Test {
 
     public static void main(String[] args){
-        ConvertCurrency cc = new ConvertCurrency();
-        float ratio = cc.getRatio("[rel=EUR,USD,1,2]");
-        System.out.println(ratio);
-
-
+    	Temperature t = new Temperature();
+    	System.out.println(t.fahrenheitToCelsius(68));
     }
 }

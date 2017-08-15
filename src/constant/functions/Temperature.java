@@ -13,12 +13,12 @@ public class Temperature {
         return c + 273.15;
     }
 
-    public float fahrenheitToCelsius(float f){
+    public double fahrenheitToCelsius(double f){
         return (f - 32) * (5f/9f);
     }
 
     public double fahrenheitToKelvin(double f){
-        return (f - 32) * (5/9) + 273.15;
+        return (f - 32) * (5f/9f) + 273.15;
     }
 
     public double kelvinToCelsius(double k){

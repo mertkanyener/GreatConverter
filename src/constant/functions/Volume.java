@@ -14,10 +14,22 @@ public class Volume {
     public double galToCl(double gal){
         return gal * 37.8541;
     }
+    
+    public double galToMl(double gal) {
+    	return gal * 3785.41;
+    }
 
     public double galToPint(double gal){
         return gal * 8;
     }
+    
+    public double galToFloz(double gal) {
+    	return gal * 128;
+    }
+    
+    
+    
+    
 
     // Fluid ounce to sth
 
@@ -68,6 +80,14 @@ public class Volume {
     public double mlToFLoz(double ml){
         return ml * 0.033814;
     }
+    
+    public double mlToPint(double ml) {
+    	return ml * 0.00211338;
+    }
+    
+    public double mlToGal(double ml) {
+    	return ml * 0.000264172;
+    }
 
     //Cl to sth
 
@@ -77,6 +97,10 @@ public class Volume {
 
     public double clToPint(double cl){
         return cl * 0.0211338;
+    }
+    
+    public double clToGal(double cl) {
+    	return cl * 0.00264172;
     }
 
     //Litre to sth

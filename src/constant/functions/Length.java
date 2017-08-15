@@ -7,9 +7,6 @@ public class Length {
 
     //Inch to sth
 
-    public double inToMm(double inch){
-        return inch * 25.4;
-    }
 
     public double inToCm(double inch){
         return inch * 2.54;
@@ -25,6 +22,14 @@ public class Length {
 
     public double inToYard(double inch){
         return inch * 0.0277778;
+    }
+    
+    public double inToMil(double inch) {
+    	return inch * 0.000015783;
+    }
+    
+    public double inToKm(double inch) {
+    	return inch * 0.0000254;
     }
 
     //Foot to sth
@@ -44,6 +49,14 @@ public class Length {
     public double ftToYd(double feet){
         return feet * 0.333333;
     }
+    
+    public double ftToMil(double feet) {
+    	return feet * 0.000189394;
+    }
+    
+    public double ftToKm(double feet) {
+    	return feet * 0.0003048;
+    }
 
     //Yard to sth
 
@@ -54,6 +67,10 @@ public class Length {
     public double ydToM(double yards){
         return yards * 0.9144;
     }
+    
+    public double ydToKm(double yards) {
+    	return yards * 0.0009144;
+    }
 
     public double ydToIn(double yards){
         return yards * 36;
@@ -62,8 +79,16 @@ public class Length {
     public double ydToFt(double yards){
         return yards * 3;
     }
+    
+    public double ydToMil(double yards) {
+    	return yards * 0.000568182;
+    }
 
     //Mile to sth
+    
+    public double milToCm(double miles) {
+    	return miles * 160934;
+    }
 
     public double milToM(double miles){
         return miles * 1609.34;
@@ -71,6 +96,10 @@ public class Length {
 
     public double milToKm(double miles){
         return miles * 1.60934;
+    }
+    
+    public double milToIn(double miles) {
+    	return miles * 63360;
     }
 
     public double milToFt(double miles){
@@ -81,11 +110,6 @@ public class Length {
         return miles * 1760;
     }
 
-    //Mm to sth
-
-    public double mmToIn(double mm){
-        return mm * 0.0393701;
-    }
 
     //Cm to sth
 
@@ -95,6 +119,14 @@ public class Length {
 
     public double cmToFt(double cm){
         return cm * 0.0328084;
+    }
+    
+    public double cmToYd(double cm) {
+    	return cm * 0.0109361;
+    }
+    
+    public double cmToMil(double cm) {
+    	return cm * 0.0000062137;
     }
 
     //M to sth
@@ -110,9 +142,25 @@ public class Length {
     public double mToYd(double m){
         return m * 1.09361;
     }
+    
+    public double mToMil(double m) {
+    	return m * 0.000621371;
+    }
 
     //Km to sth
-
+    
+    public double kmToIn(double km) {
+    	return km * 39370.1;
+    }
+    
+    public double kmToFt(double km) {
+    	return km * 3280.84;
+    }
+    
+    public double kmToYd(double km) {
+    	return km * 1093.61;
+    }
+    
     public double kmToMil(double km){
         return km * 0.621371;
     }
